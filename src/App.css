@@ -1,0 +1,89 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: cadetblue;
+}
+.App {
+  text-align: center;
+  background-color: rgb(238, 70, 70);
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 8rem auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+.input-field {
+  display: flex;
+  align-items: center;
+  padding: 10px 14px;
+  gap: 12px;
+  flex-direction: column;
+}
+.field {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+input {
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  border-radius: 4px;
+  padding-left: 12px;
+}
+input::placeholder {
+  font-size: 20px;
+}
+button {
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 4px 14px;
+  background-color: chartreuse;
+  font-weight: bold;
+}
+button:hover {
+  background-color: rgb(140, 235, 46);
+}
+button:active {
+  background-color: rgba(59, 65, 145, 0.884);
+  color: #fff;
+}
+
+.listStye li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.list-style {
+  background-color: coral;
+  padding: 4px 24px;
+  border-radius: 10px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+  width: 80%;
+  margin-left: 24px;
+  margin-bottom: 10px;
+}
+.title {
+  font-size: 24px;
+  color: rgb(235, 255, 255);
+  /* width: 100%; */
+}
